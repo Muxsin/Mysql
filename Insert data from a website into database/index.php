@@ -9,19 +9,16 @@
 </head>
 <body>
     
-    <form action="includes/signup.inc.php" method="POST">
-        <input type="text" nane="first" placeholder="Firstname">
-        <br>
-        <input type="text" nane="last" placeholder="Lastname">
-        <br>
-        <input type="text" nane="email" placeholder="E-mail">
-        <br>
-        <input type="text" nane="uid" placeholder="Username">
-        <br>
-        <input type="password" nane="pwd" placeholder="Password">
-        <br>
-        <button type="submit" name="submit">Sign up</button>
+    <form method="post" action="./includes/signup.inc.php">
+        <div class="container" style="text-align: center; margin-top: 8%;">
+            <input type="text" name="uid" placeholder="Username" style="margin:5px;" /><br />
+            <input type="text" name="first" placeholder="Firstname" style="margin:5px;" /><br />
+            <input type="text" name="last" placeholder="Lastname" style="margin:5px;" /><br />
+            <input type="password" name="pwd" placeholder="Password" style="margin:5px;" /><br />
+            <input type="text" name="email" placeholder="E-mail" style="margin:5px;" /><br />
+            <input type="submit" value="Select" />
+        </div>
     </form>
-
+    
 </body>
 </html>
