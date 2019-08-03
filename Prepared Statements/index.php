@@ -8,9 +8,9 @@
     <title></title>
 </head>
 <body>
-    
     <form method="post" action="includes/signup.inc.php">
         <div class="container" style="text-align: center; margin-top: 8%;">
+        <h2>Sign Up</h2>
             <input type="text" name="uid" placeholder="Username" style="margin:5px;" /><br />
             <input type="text" name="first" placeholder="Firstname" style="margin:5px;" /><br />
             <input type="text" name="last" placeholder="Lastname" style="margin:5px;" /><br />
