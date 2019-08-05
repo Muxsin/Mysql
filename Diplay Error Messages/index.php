@@ -63,7 +63,7 @@
         if(!isset($_GET['signup'])){
             exit();
         }else{
-            $signupCheck= $_GET['signup'];
+            $signupCheck = $_GET['signup'];
             if($signupCheck === "empty"){
                 echo "You did not fill all fields!";
                 exit();
