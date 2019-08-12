@@ -1,0 +1,9 @@
+[global]
+default = 'test.db'
+
+[test.db]
+db_host = 'localhost'
+db_port = '3306'
+db_user = ''
+db_pwd = ''
+db_name = ''
