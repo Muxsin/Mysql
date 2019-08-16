@@ -15,7 +15,11 @@
         <pre>
             <?php
                 require_once 'includes/conn.inc.php';
+                $sql = "SELECT * FROM users WHERE user_id='1'";
+                echo mysqli_query($conn, $sql);
             ?>
         </pre>
+    
+
     </body>
 </html>
